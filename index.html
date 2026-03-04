@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Developer Portfolio</title>
+
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+	  <div class="container-fluid px-4">
+	    <a class="navbar-brand" href="#landing">Maiki</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+	      <ul class="navbar-nav">
+	        <li class="nav-item"><a class="nav-link" href="#landing">Home</a></li>
+	        <li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
+	        <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+	        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- End of Navbar -->
+
+	<!-- Landing -->
+	<div class="container-fluid" id="landing">
+		<div class="row min-vh-100 align-items-center justify-content-center">
+			<div class="col text-center">
+				<img src="./images/gradpic.png" class="rounded-circle profile-pic">
+				<h1 class="mt-4">WHO AM I?</h1>
+				<h2 class="mt-2">I'm Maiki, a Full Stack Developer</h2>
+				<p class="mt-3 landing-desc mx-auto">
+				Building comprehensive, responsive, and intuitive web applications designed to maximize user satisfaction. Committed to continuous growth and driven by the belief that there is always something new to learn and always something greater to create.</p>
+				<a href="#projects" class="btn btn-warning btn-landing mt-4">View My Work</a>
+			</div>
+		</div>
+	</div>
+	<!-- End of Landing -->
+
+	<!-- My Projects -->
+	<div id="projects" class="container-fluid section-pad bg-light">
+	  <h2 class="section-title text-center">My Projects</h2>
+	  <p class="section-subtitle text-center">Here's what I have built</p>
+	  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-2">
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/meditrack.png" class="card-img-top project-img" alt="Project 1">
+	        <div class="card-body">
+	          <h5 class="card-title">MediTrack</h5>
+	          <p class="card-text">A medicine tracking app that automatically creates a dosage schedule, keeps track of how many dosages you have left and sends reminders at the right time.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/knowyourlimit.jpg" class="card-img-top project-img" alt="Project 2">
+	        <div class="card-body">
+	          <h5 class="card-title">Know Your Limit</h5>
+	          <p class="card-text">A one-stop health guide that lists daily limits for food, drinks and lifestyle habits, with an interactive anatomy viewer and path to recovery section.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/ecommerceapi.png" class="card-img-top project-img" alt="Project 3">
+	        <div class="card-body">
+	          <h5 class="card-title">E-commerce API Docs</h5>
+	          <p class="card-text">Dynamic E-Commerce Workflow Management with order processing, real-time inventory updates, and secure user authentication. Documented publicly via Postman.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/courseapi.png" class="card-img-top project-img" alt="Project 4">
+	        <div class="card-body">
+	          <h5 class="card-title">Course Booking API Docs</h5>
+	          <p class="card-text">RESTful API for managing course enrollments with user registration, authentication, course creation, updates, archiving, and student enrollment. Documented via Postman.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/coursebooking.png" class="card-img-top project-img" alt="Project 5">
+	        <div class="card-body">
+	          <h5 class="card-title">Course Booking App</h5>
+	          <p class="card-text">A MERN-stack course enrollment system with user registration, authentication, profile management, and seamless course browsing and enrollment.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/ecommerceapp.jpg" class="card-img-top project-img" alt="Project 6">
+	        <div class="card-body">
+	          <h5 class="card-title">E-commerce App</h5>
+	          <p class="card-text">MERN E-Commerce Platform with dynamic product catalog, real-time search, seamless cart, secure checkout, and a comprehensive admin dashboard with analytics.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/airlinemockup.png" class="card-img-top project-img" alt="Project 7">
+	        <div class="card-body">
+	          <h5 class="card-title">Airline Booking Mockup</h5>
+	          <p class="card-text">Side Project: Conceptual UI design for flight search, seat selection, and booking confirmation — focused on user experience and workflow efficiency.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/airlinebooking.png" class="card-img-top project-img" alt="Project 8">
+	        <div class="card-body">
+	          <h5 class="card-title">Airline Booking Prototype</h5>
+	          <p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking, including flight search, reservation, payment processing, and real-time ticket management.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/phython.png" class="card-img-top project-img" alt="Short Course Capstone 1">
+	        <div class="card-body">
+	          <h5 class="card-title">Short Courses Capstone 1</h5>
+	          <p class="card-text">Placeholder for your Short Courses Capstone project.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/aws.png" class="card-img-top project-img" alt="Short Course Capstone 2">
+	        <div class="card-body">
+	          <h5 class="card-title">Short Courses Capstone 2</h5>
+	          <p class="card-text">Placeholder for your Short Courses Capstone project.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col">
+	      <div class="card h-100 project-card">
+	        <img src="./images/mysql.png" class="card-img-top project-img" alt="Short Course Capstone 3">
+	        <div class="card-body">
+	          <h5 class="card-title">Short Courses Capstone 3</h5>
+	          <p class="card-text">Placeholder for your Short Courses Capstone project.</p>
+	        </div>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+	<!-- End of My Projects -->
+
+	<!-- Tools Section -->
+	<div id="tools" class="container-fluid section-pad tools-bg">
+	  <h2 class="section-title text-center">Tools</h2>
+	  <p class="section-subtitle text-center">Technologies I work with</p>
+	  <div class="row text-center mt-4 justify-content-center">
+
+	    <div class="col-md-4 mb-4">
+	      <div class="tools-group">
+	        <h5 class="tools-heading">Front End</h5>
+	        <div class="mt-3">
+	          <i class="devicon-html5-plain colored tool-icon" title="HTML5"></i>
+	          <i class="devicon-css3-plain colored tool-icon" title="CSS3"></i>
+	          <i class="devicon-bootstrap-plain colored tool-icon" title="Bootstrap"></i>
+	          <i class="devicon-javascript-plain colored tool-icon" title="JavaScript"></i>
+	        </div>
+
+	        <div class="tools-labels mt-2">
+	          <span>HTML5</span>
+	          <span>CSS3</span>
+	          <span>Bootstrap</span>
+	          <span>JavaScript</span>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col-md-4 mb-4">
+	      <div class="tools-group">
+	        <h5 class="tools-heading">MERN</h5>
+	        <div class="mt-3">
+	          <i class="devicon-mongodb-plain colored tool-icon" title="MongoDB"></i>
+	          <i class="devicon-express-original colored tool-icon" title="Express.js"></i>
+	          <i class="devicon-react-original colored tool-icon" title="React.js"></i>
+	          <i class="devicon-nodejs-plain colored tool-icon" title="Node.js"></i>
+	        </div>
+	        
+	        <div class="tools-labels mt-2">
+	          <span>MongoDB</span>
+	          <span>Express.js</span>
+	          <span>React.js</span>
+	          <span>Node.js</span>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col-md-4 mb-4">
+	      <div class="tools-group">
+	        <h5 class="tools-heading">Other Tools</h5>
+	        <div class="mt-3">
+	          <i class="devicon-heroku-plain colored tool-icon" title="Heroku"></i>
+	          <i class="devicon-git-plain colored tool-icon" title="Git"></i>
+	          <i class="devicon-postman-plain colored tool-icon" title="Postman"></i>
+	          <i class="devicon-vscode-plain colored tool-icon" title="VS Code"></i>
+	        </div>
+	        <div class="tools-labels mt-2">
+	          <span>Heroku</span>
+	          <span>Git</span>
+	          <span>Postman</span>
+	          <span>VS Code</span>
+	        </div>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+	<!-- End of Tools Section -->
+
+	<!-- Contact Section -->
+	<div id="contact" class="container-fluid section-pad">
+	  <h2 class="section-title text-center">Contact</h2>
+	  <p class="section-subtitle text-center">Have any questions? Don't hesitate to reach out!</p>
+	  <div class="row justify-content-center mt-4">
+	    <div class="col-md-6">
+	      <input type="text" class="form-control mb-3" placeholder="First Name MI. Last Name">
+	      <input type="email" class="form-control mb-3" placeholder="Email">
+	      <textarea class="form-control mb-3" rows="5" placeholder="Message"></textarea>
+	      <div class="d-flex justify-content-between align-items-center">
+	        <div>
+	          <a href="https://www.linkedin.com" target="_blank">
+	            <i class="devicon-linkedin-plain colored contact-icon"></i>
+	          </a>
+	          <a href="https://www.gitlab.com" target="_blank">
+	            <i class="devicon-gitlab-plain colored contact-icon"></i>
+	          </a>
+	          <a href="https://www.github.com" target="_blank">
+	            <i class="devicon-github-original contact-icon"></i>
+	          </a>
+	        </div>
+	        <button class="btn btn-submit">Submit</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End of Contact Section -->
+
+	<!-- Footer -->
+	<footer id="footer" class="text-center text-white">
+	  <p class="mb-0">© All Rights Reserved 2026</p>
+	</footer>
+	<!-- End of Footer -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
