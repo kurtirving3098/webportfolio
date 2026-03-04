@@ -43,7 +43,7 @@
 			<div class="col text-center">
 				<img src="./images/gradpic.png" class="rounded-circle profile-pic">
 				<h1 class="mt-4">WHO AM I?</h1>
-				<h2 class="mt-2">I'm Maiki, a Full Stack Developer</h2>
+				<h2 class="mt-2">I'm Maiki, a Full Stack Web Developer</h2>
 				<p class="mt-3 landing-desc mx-auto">
 				Building comprehensive, responsive, and intuitive web applications designed to maximize user satisfaction. Committed to continuous growth and driven by the belief that there is always something new to learn and always something greater to create.</p>
 				<a href="#projects" class="btn btn-warning btn-landing mt-4">View My Work</a>
@@ -244,23 +244,25 @@
 	  <p class="section-subtitle text-center">Have any questions? Don't hesitate to reach out!</p>
 	  <div class="row justify-content-center mt-4">
 	    <div class="col-md-6">
-	      <input type="text" class="form-control mb-3" placeholder="First Name MI. Last Name">
-	      <input type="email" class="form-control mb-3" placeholder="Email">
-	      <textarea class="form-control mb-3" rows="5" placeholder="Message"></textarea>
-	      <div class="d-flex justify-content-between align-items-center">
-	        <div>
-	          <a href="https://www.linkedin.com" target="_blank">
-	            <i class="devicon-linkedin-plain colored contact-icon"></i>
-	          </a>
-	          <a href="https://www.gitlab.com" target="_blank">
-	            <i class="devicon-gitlab-plain colored contact-icon"></i>
-	          </a>
-	          <a href="https://www.github.com" target="_blank">
-	            <i class="devicon-github-original contact-icon"></i>
-	          </a>
-	        </div>
-	        <button class="btn btn-submit">Submit</button>
-	      </div>
+	    	<form id="contact-form" action="#">
+	      		<input type="text" name="name" id="name" class="form-control mb-3" placeholder="First Name MI. Last Name">
+	      		<input type="email" name="email" id="email" class="form-control mb-3" placeholder="Email">
+	      		<textarea class="form-control mb-3" name="message" id="message" rows="5" placeholder="Message"></textarea>
+	      		<div class="d-flex justify-content-between align-items-center">
+	        		<div>
+	          		<a href="https://www.linkedin.com" target="_blank">
+	            		<i class="devicon-linkedin-plain colored contact-icon"></i>
+	          		</a>
+	          		<a href="https://www.gitlab.com" target="_blank">
+	            		<i class="devicon-gitlab-plain colored contact-icon"></i>
+	          		</a>
+	          		<a href="https://www.github.com" target="_blank">
+	            		<i class="devicon-github-original contact-icon"></i>
+	          		</a>
+	        		</div>
+	        		<button class="btn btn-submit" type="Submit">Submit</button>
+	      		</div>
+	      </form>
 	    </div>
 	  </div>
 	</div>
