@@ -194,6 +194,32 @@ a {
   text-align: center;
 }
 
+/* Container to centrally justify icons across all groups uniformly */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem; /* Adjust horizontal gap between icons here */
+  flex-wrap: wrap;
+}
+
+/* Force SVGs to scale match Devicon fonts */
+.tool-icon.inline-svg {
+  width: 45px;   /* Match this to whatever font-size your devicons are using */
+  height: 45px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Fix your text labels alignment beneath the icons */
+.tools-labels {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem; /* Make sure this gap matches the icon-container gap */
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
 /* ── Contact ── */
 #contact {
   background-color: #fff;

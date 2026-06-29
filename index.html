@@ -41,11 +41,12 @@
 	<div class="container-fluid" id="landing">
 		<div class="row min-vh-100 align-items-center justify-content-center">
 			<div class="col text-center">
-				<img src="./images/gradpic.png" class="rounded-circle profile-pic">
-				<h1 class="mt-4">WHO AM I?</h1>
-				<h2 class="mt-2">I'm Maiki, a Full Stack Web Developer</h2>
+				<img src="./images/gradpic.png" class="rounded-circle profile-pic" alt="Maiki">
+				<h1 class="mt-4">Full Stack Web Developer</h1>
+				<h2 class="mt-2">Based in Japan</h2>
 				<p class="mt-3 landing-desc mx-auto">
-				Building comprehensive, responsive, and intuitive web applications designed to maximize user satisfaction. Committed to continuous growth and driven by the belief that there is always something new to learn and always something greater to create.</p>
+				I'm Maiki, a Full Stack Web Developer based in Japan. I initially joined a coding bootcamp to get a better job, but I ended up building a digital museum for dead Filipino websites. From setting up my first server to full-stack integration, I became more fascinated with the engineering side of it. Going beyond what was required of the bootcamp, I began connecting to the Wayback CDX API and making engineering decisions I had no roadmap for. I have made internet preservation more streamlined and community-based, because I wanted to preserve as much of the old internet that I grew up with. And honestly, that is not the thing I imagined I would do in my life.
+				</p>
 				<a href="#projects" class="btn btn-warning btn-landing mt-4">View My Work</a>
 			</div>
 		</div>
@@ -56,114 +57,46 @@
 	<div id="projects" class="container-fluid section-pad bg-light">
 	  <h2 class="section-title text-center">My Projects</h2>
 	  <p class="section-subtitle text-center">Here's what I have built</p>
-	  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-2">
+	  <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 justify-content-center">
 
+	    <!-- Museum of Internet History -->
 	    <div class="col">
 	      <div class="card h-100 project-card">
-	        <img src="./images/meditrack.png" class="card-img-top project-img" alt="Project 1">
+	        <img src="./images/museum.png" class="card-img-top project-img" alt="Museum of Internet History">
 	        <div class="card-body">
-	          <h5 class="card-title">MediTrack</h5>
-	          <p class="card-text">A medicine tracking app that automatically creates a dosage schedule, keeps track of how many dosages you have left and sends reminders at the right time.</p>
+	          <h5 class="card-title">Museum of Internet History</h5>
+	          <p class="card-text">A full-stack digital archive where users search and surface defunct Filipino websites using the Internet Archive's Wayback CDX API. Features tiered access, a community artifact submission pipeline, admin curation, and three switchable Friendster-era CSS themes for an immersive experience.</p>
+	        </div>
+	        <div class="card-footer bg-transparent border-0 pb-3">
+	          <a href="https://museum-of-internet-history.vercel.app/" target="_blank" class="btn btn-warning btn-sm">View Live</a>
 	        </div>
 	      </div>
 	    </div>
 
+	    <!-- E-commerce App -->
 	    <div class="col">
 	      <div class="card h-100 project-card">
-	        <img src="./images/knowyourlimit.jpg" class="card-img-top project-img" alt="Project 2">
+	        <img src="./images/taro606.png" class="card-img-top project-img" alt="Taro 606 E-commerce App">
 	        <div class="card-body">
-	          <h5 class="card-title">Know Your Limit</h5>
-	          <p class="card-text">A one-stop health guide that lists daily limits for food, drinks and lifestyle habits, with an interactive anatomy viewer and path to recovery section.</p>
+	          <h5 class="card-title">Taro 606 E-commerce App</h5>
+	          <p class="card-text">A MERN e-commerce platform built in collaboration with a graphic designer — I handled the full backend and integration, including a Cloudinary-powered image pipeline to bring his assets to life. Features a dynamic product catalog, cart, secure checkout, and an admin dashboard.</p>
+	        </div>
+	        <div class="card-footer bg-transparent border-0 pb-3">
+	          <a href="http://zuitt-bootcamp-prod-606-9563-cuanan.s3-website.us-east-1.amazonaws.com/" target="_blank" class="btn btn-warning btn-sm">View Live</a>
 	        </div>
 	      </div>
 	    </div>
 
+	    <!-- Airline Booking App -->
 	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/ecommerceapi.png" class="card-img-top project-img" alt="Project 3">
+	      <div class="card h-100 project-card project-card-soon">
+	        <img src="./images/airlinebooking.png" class="card-img-top project-img" alt="Airline Booking App">
 	        <div class="card-body">
-	          <h5 class="card-title">E-commerce API Docs</h5>
-	          <p class="card-text">Dynamic E-Commerce Workflow Management with order processing, real-time inventory updates, and secure user authentication. Documented publicly via Postman.</p>
+	          <h5 class="card-title">Airline Booking App <span class="badge bg-secondary ms-2">Coming Soon</span></h5>
+	          <p class="card-text">A full-stack airline booking system covering flight search, seat selection, reservation, and real-time ticket management. Currently in final development — check back soon.</p>
 	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/courseapi.png" class="card-img-top project-img" alt="Project 4">
-	        <div class="card-body">
-	          <h5 class="card-title">Course Booking API Docs</h5>
-	          <p class="card-text">RESTful API for managing course enrollments with user registration, authentication, course creation, updates, archiving, and student enrollment. Documented via Postman.</p>
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/coursebooking.png" class="card-img-top project-img" alt="Project 5">
-	        <div class="card-body">
-	          <h5 class="card-title">Course Booking App</h5>
-	          <p class="card-text">A MERN-stack course enrollment system with user registration, authentication, profile management, and seamless course browsing and enrollment.</p>
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/ecommerceapp.jpg" class="card-img-top project-img" alt="Project 6">
-	        <div class="card-body">
-	          <h5 class="card-title">E-commerce App</h5>
-	          <p class="card-text">MERN E-Commerce Platform with dynamic product catalog, real-time search, seamless cart, secure checkout, and a comprehensive admin dashboard with analytics.</p>
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/airlinemockup.png" class="card-img-top project-img" alt="Project 7">
-	        <div class="card-body">
-	          <h5 class="card-title">Airline Booking Mockup</h5>
-	          <p class="card-text">Side Project: Conceptual UI design for flight search, seat selection, and booking confirmation — focused on user experience and workflow efficiency.</p>
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/airlinebooking.png" class="card-img-top project-img" alt="Project 8">
-	        <div class="card-body">
-	          <h5 class="card-title">Airline Booking Prototype</h5>
-	          <p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking, including flight search, reservation, payment processing, and real-time ticket management.</p>
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/phython.png" class="card-img-top project-img" alt="Short Course Capstone 1">
-	        <div class="card-body">
-	          <h5 class="card-title">Short Courses Capstone 1</h5>
-	          <p class="card-text">Placeholder for your Short Courses Capstone project.</p>
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/aws.png" class="card-img-top project-img" alt="Short Course Capstone 2">
-	        <div class="card-body">
-	          <h5 class="card-title">Short Courses Capstone 2</h5>
-	          <p class="card-text">Placeholder for your Short Courses Capstone project.</p>
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="col">
-	      <div class="card h-100 project-card">
-	        <img src="./images/mysql.png" class="card-img-top project-img" alt="Short Course Capstone 3">
-	        <div class="card-body">
-	          <h5 class="card-title">Short Courses Capstone 3</h5>
-	          <p class="card-text">Placeholder for your Short Courses Capstone project.</p>
+	        <div class="card-footer bg-transparent border-0 pb-3">
+	          <button class="btn btn-secondary btn-sm" disabled>In Development</button>
 	        </div>
 	      </div>
 	    </div>
@@ -181,36 +114,34 @@
 	    <div class="col-md-4 mb-4">
 	      <div class="tools-group">
 	        <h5 class="tools-heading">Front End</h5>
-	        <div class="mt-3">
+	        <div class="mt-3 icon-container">
 	          <i class="devicon-html5-plain colored tool-icon" title="HTML5"></i>
 	          <i class="devicon-css3-plain colored tool-icon" title="CSS3"></i>
 	          <i class="devicon-bootstrap-plain colored tool-icon" title="Bootstrap"></i>
 	          <i class="devicon-javascript-plain colored tool-icon" title="JavaScript"></i>
+	          <i class="devicon-vuejs-plain colored tool-icon" title="Vue.js"></i>
 	        </div>
-
 	        <div class="tools-labels mt-2">
 	          <span>HTML5</span>
 	          <span>CSS3</span>
 	          <span>Bootstrap</span>
 	          <span>JavaScript</span>
+	          <span>Vue.js</span>
 	        </div>
 	      </div>
 	    </div>
 
 	    <div class="col-md-4 mb-4">
 	      <div class="tools-group">
-	        <h5 class="tools-heading">MERN</h5>
-	        <div class="mt-3">
+	        <h5 class="tools-heading">Back End</h5>
+	        <div class="mt-3 icon-container">
 	          <i class="devicon-mongodb-plain colored tool-icon" title="MongoDB"></i>
 	          <i class="devicon-express-original colored tool-icon" title="Express.js"></i>
-	          <i class="devicon-react-original colored tool-icon" title="React.js"></i>
 	          <i class="devicon-nodejs-plain colored tool-icon" title="Node.js"></i>
 	        </div>
-	        
 	        <div class="tools-labels mt-2">
 	          <span>MongoDB</span>
 	          <span>Express.js</span>
-	          <span>React.js</span>
 	          <span>Node.js</span>
 	        </div>
 	      </div>
@@ -218,18 +149,37 @@
 
 	    <div class="col-md-4 mb-4">
 	      <div class="tools-group">
-	        <h5 class="tools-heading">Other Tools</h5>
-	        <div class="mt-3">
-	          <i class="devicon-heroku-plain colored tool-icon" title="Heroku"></i>
-	          <i class="devicon-git-plain colored tool-icon" title="Git"></i>
+	        <h5 class="tools-heading">Tools & Workflow</h5>
+	        <div class="mt-3 icon-container">
+	          <svg class="tool-icon inline-svg" viewBox="0 0 24 24" title="Git">
+	            <path fill="#F05032" d="M23.546 10.93L13.07.454a1.5 1.5 0 0 0-2.122 0L8.805 2.597l2.833 2.833a2.66 2.66 0 0 1 3.518 3.518l2.838 2.839a2.66 2.66 0 0 1 3.552 3.551l2.001 2.001a1.5 1.5 0 0 0 0-2.122zM10.93 23.546l10.476-10.476a1.5 1.5 0 0 0 0-2.122l-2.001-2.001a2.66 2.66 0 0 1-3.551-3.552L13 2.557a2.66 2.66 0 0 1-3.519-3.518L2.597 5.922a1.5 1.5 0 0 0 0 2.122l10.476 10.476a1.5 1.5 0 0 0 2.122 0zM10.5 12a1.5 1.5 0 1 1-1.5-1.5A1.5 1.5 0 0 1 10.5 12z"/>
+	          </svg>
+
 	          <i class="devicon-postman-plain colored tool-icon" title="Postman"></i>
 	          <i class="devicon-vscode-plain colored tool-icon" title="VS Code"></i>
+	          <i class="devicon-vercel-plain colored tool-icon" title="Vercel"></i>
+
+	          <svg class="tool-icon inline-svg" viewBox="0 0 24 24" title="Pinia">
+	            <path fill="#FFE066" d="M12 1a4 4 0 0 0-4 4v1.17A8 8 0 0 0 3 14c0 3.76 2.6 6.92 6.1 7.74l-.46 1.39a1 1 0 0 0 .95 1.32h4.82a1 1 0 0 0 .95-1.32l-.46-1.39c3.5-.82 6.1-3.98 6.1-7.74a8 8 0 0 0-5-7.17V5a4 4 0 0 0-4-4z"/>
+	            <circle cx="9.5" cy="11.5" r="1.5" fill="#333"/>
+	            <circle cx="14.5" cy="11.5" r="1.5" fill="#333"/>
+	            <path d="M10 15.5s1 1.5 2 1.5 2-1.5 2-1.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+	            <path fill="#41B883" d="M12 1v4a1 1 0 0 1-2 0V3.5A2.5 2.5 0 0 0 7.5 6a1 1 0 0 1-2 0A4.5 4.5 0 0 1 10 1.5V1z"/>
+	          </svg>
+
+	          <svg class="tool-icon inline-svg" viewBox="0 0 24 24" title="Cloudinary">
+	            <path fill="#3448C5" d="M19.333 10.424A7.323 7.323 0 0 0 12 4.14a7.323 7.323 0 0 0-7.333 6.284A4.89 4.89 0 0 0 0 15.143a4.89 4.89 0 0 0 4.889 4.89h14.222A4.89 4.89 0 0 0 24 15.142a4.89 4.89 0 0 0-4.667-4.718z"/>
+	            <path fill="#F44236" d="M11.373 14.808c-.702 0-1.27-.562-1.27-1.258a1.265 1.265 0 0 1 1.27-1.258h1.254c.702 0 1.27.562 1.27 1.258a1.265 1.265 0 0 1-1.27 1.258h-1.254z"/>
+	          </svg>
 	        </div>
+	        
 	        <div class="tools-labels mt-2">
-	          <span>Heroku</span>
 	          <span>Git</span>
 	          <span>Postman</span>
 	          <span>VS Code</span>
+	          <span>Vercel</span>
+	          <span>Pinia</span>
+	          <span>Cloudinary</span>
 	        </div>
 	      </div>
 	    </div>
@@ -244,24 +194,42 @@
 	  <p class="section-subtitle text-center">Have any questions? Don't hesitate to reach out!</p>
 	  <div class="row justify-content-center mt-4">
 	    <div class="col-md-6">
-	    	<form id="contact-form" action="#">
-	      		<input type="text" name="name" id="name" class="form-control mb-3" placeholder="First Name MI. Last Name">
-	      		<input type="email" name="email" id="email" class="form-control mb-3" placeholder="Email">
-	      		<textarea class="form-control mb-3" name="message" id="message" rows="5" placeholder="Message"></textarea>
-	      		<div class="d-flex justify-content-between align-items-center">
-	        		<div>
-	          		<a href="https://www.linkedin.com" target="_blank">
-	            		<i class="devicon-linkedin-plain colored contact-icon"></i>
-	          		</a>
-	          		<a href="https://www.gitlab.com" target="_blank">
-	            		<i class="devicon-gitlab-plain colored contact-icon"></i>
-	          		</a>
-	          		<a href="https://www.github.com" target="_blank">
-	            		<i class="devicon-github-original contact-icon"></i>
-	          		</a>
-	        		</div>
-	        		<button class="btn btn-submit" type="Submit">Submit</button>
-	      		</div>
+	      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+	        
+	        <input type="hidden" name="access_key" value="13b2bada-b237-4e8b-94c3-383c0890eb37">
+
+	        <!-- 1. ADD THIS HIDDEN INPUT FOR THE RECAPTCHA TOKEN -->
+            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
+	        <input type="hidden" name="subject" value="New Submission from Portfolio">
+	        
+	        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+	        <input type="text" name="name" id="name" class="form-control mb-3" placeholder="First Name MI. Last Name" required>
+	        <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Email" required>
+	        <textarea class="form-control mb-3" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+	        
+	        <div class="d-flex justify-content-between align-items-center">
+	          <div>
+	            <a href="https://www.linkedin.com" target="_blank">
+	              <i class="devicon-linkedin-plain colored contact-icon"></i>
+	            </a>
+	            <a href="https://www.gitlab.com" target="_blank">
+	              <i class="devicon-gitlab-plain colored contact-icon"></i>
+	            </a>
+	            <a href="https://www.github.com" target="_blank">
+	              <i class="devicon-github-original contact-icon"></i>
+	            </a>
+	          </div>
+	          <!-- 2. ADD YOUR GOOGLE SITE KEY TO THE BUTTON DATA ATTRIBUTE -->
+              <button 
+	            class="btn btn-submit g-recaptcha" 
+	            data-sitekey="6LcmrzwtAAAAAAmSVOTtbw68RwqiwgsFILESkJcu" 
+	            data-callback="onSubmit" 
+	            data-action="submit">
+	            Submit
+	          </button>
+	        </div>
 	      </form>
 	    </div>
 	  </div>
@@ -273,6 +241,17 @@
 	  <p class="mb-0">© All Rights Reserved 2026</p>
 	</footer>
 	<!-- End of Footer -->
+
+	<!-- 3. INCLUDE THE GOOGLE SCRIPT & TOKEN HANDLER SCRIPT RIGHT BEFORE YOUR CLOSING </body > TAG -->
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+	  function onSubmit(token) {
+	    // Insert the token into our hidden input field
+	    document.getElementById("recaptchaResponse").value = token;
+	    // Manually submit the form to Web3Forms
+	    document.getElementById("contact-form").submit();
+	  }
+	</script>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
