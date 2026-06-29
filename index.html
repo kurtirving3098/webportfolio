@@ -195,21 +195,16 @@
 	  <div class="row justify-content-center mt-4">
 	    <div class="col-md-6">
 	      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-	        
-	        <input type="hidden" name="access_key" value="ff82fa5d-fac5-400c-8d9a-b2a55af3537d">
+	          
+	          <input type="hidden" name="access_key" value="ff82fa5d-fac5-400c-8d9a-b2a55af3537d">
+	          
+	          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-	        <!-- 1. ADD THIS HIDDEN INPUT FOR THE RECAPTCHA TOKEN -->
-            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-
-	        <input type="hidden" name="subject" value="New Submission from Portfolio">
-	        
-	        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
-	        <input type="text" name="name" id="name" class="form-control mb-3" placeholder="First Name MI. Last Name" required>
-	        <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Email" required>
-	        <textarea class="form-control mb-3" name="message" id="message" rows="5" placeholder="Message" required></textarea>
-	        
-	        <div class="d-flex justify-content-between align-items-center">
+	          <input type="text" name="name" class="form-control mb-3" placeholder="First Name MI. Last Name" required>
+	          <input type="email" name="email" class="form-control mb-3" placeholder="Email" required>
+	          <textarea class="form-control mb-3" name="message" rows="5" placeholder="Message" required></textarea>
+	          
+	          <div class="d-flex justify-content-between align-items-center">
 	          <div>
 	            <a href="https://www.linkedin.com" target="_blank">
 	              <i class="devicon-linkedin-plain colored contact-icon"></i>
@@ -222,13 +217,9 @@
 	            </a>
 	          </div>
 	          <!-- 2. ADD YOUR GOOGLE SITE KEY TO THE BUTTON DATA ATTRIBUTE -->
-              <button 
-	            class="btn btn-submit g-recaptcha" 
-	            data-sitekey="6LcmrzwtAAAAAAmSVOTtbw68RwqiwgsFILESkJcu" 
-	            data-callback="onSubmit" 
-	            data-action="submit">
-	            Submit
-	          </button>
+              <button class="btn btn-submit" type="submit">
+                Submit
+                </button>
 	        </div>
 	      </form>
 	    </div>
@@ -243,7 +234,6 @@
 	<!-- End of Footer -->
 
 	<!-- 3. INCLUDE THE GOOGLE SCRIPT & TOKEN HANDLER SCRIPT RIGHT BEFORE YOUR CLOSING </body > TAG -->
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<script>
 	  function onSubmit(token) {
 	    // Insert the token into our hidden input field
